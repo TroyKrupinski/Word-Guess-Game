@@ -1,0 +1,40 @@
+body{
+    background-image: url("../images/vapor1.jpg");
+    color: #9242f4;
+    width: 100%;
+    height: 100%;
+}
+h1{
+   font-size: 60;
+}
+h2{
+    margin-right: 500px;
+    color: #f442a7;
+}
+.main{
+    height:600px;
+    width: 960px;
+    margin: 0 auto;
+    background-image: url(../images/vapor2.png);
+    background-size: cover;
+}
+.img{
+    position: relative;
+    height:200;
+    bottom: 595px;
+    left: 60px;
+    width: 640px;
+    margin: 0 auto;
+    background-image: url(../images/test.png);
+    background-size: cover;
+}
+.guess{
+    position: relative;
+    bottom: 200px;
+    left: 1000px;
+}
+.guesses{
+    position: relative;
+    bottom: 350px;
+    left: 930px;
+}
