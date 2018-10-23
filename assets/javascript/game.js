@@ -22,6 +22,7 @@ function pplay(RandomSong){
     console.log(RandomSong);
     console.log(Alth);
     if(isplaying == false){
+        var song = ""; 
         audioElement = document.createElement('audio');
         RandomSong = play2[Math.floor(Math.random()*play2.length)];
         if(RandomSong == "Resonance.mp4"){
