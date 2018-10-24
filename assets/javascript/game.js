@@ -80,7 +80,7 @@ function pplay(RandomSong){
                 console.log(s);
                 console.log(song.length);
                 console.log(Song1[i]);
-                    if(s == playing[i]){
+                    if(s == song[i]){
                         console.log("test");
                         table.push
                         table[i] = s;
